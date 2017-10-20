@@ -18,8 +18,8 @@ RUN wget -nv --no-cookies --no-check-certificate \
 
 ENV JAVA_HOME=/usr/java/jdk1.8.0_${JAVA_UPDATE} \
     ZK_HOSTS=localhost:2181 \
-    KM_VERSION=1.3.1.8 \
-    KM_REVISION=97329cc8bf462723232ee73dc6702c064b5908eb \
+    KM_VERSION=1.3.3.14 \
+    KM_REVISION=5de818f330365fc3cd835b8227875ad12f29ed15 \
     KM_CONFIGFILE="conf/application.conf"
 
 RUN mkdir -p /tmp && \
